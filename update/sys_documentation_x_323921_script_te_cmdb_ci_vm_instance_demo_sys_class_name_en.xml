@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="sys_class_name" label="Class" language="en" table="x_323921_script_te_cmdb_ci_vm_instance_demo">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>sys_class_name</element>
+            <help/>
+            <hint/>
+            <label>Class</label>
+            <language>en</language>
+            <name>x_323921_script_te_cmdb_ci_vm_instance_demo</name>
+            <plural>Class</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-11 06:31:27</sys_created_on>
+            <sys_id>9e1e04742f3473008ee3c886f699b629</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Class</sys_name>
+            <sys_package display_value="script_testing" source="x_323921_script_te">9075954ddb503300c067f53a299619c4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="script_testing">9075954ddb503300c067f53a299619c4</sys_scope>
+            <sys_update_name>sys_documentation_x_323921_script_te_cmdb_ci_vm_instance_demo_sys_class_name_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-11 06:31:27</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

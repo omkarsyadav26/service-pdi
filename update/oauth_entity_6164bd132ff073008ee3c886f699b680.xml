@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>60</auth_code_lifespan>
+        <auth_url/>
+        <certificate_url/>
+        <client_id>9d64bd13a0f0730069a9131ebd7fa034</client_id>
+        <client_secret>5TFgIlxlyFj4lDEnqLQQ7g==</client_secret>
+        <client_uuid>5d64bd132ff073008ee3c886f699b634</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>password</default_grant_type>
+        <id_token_lifespan>86400</id_token_lifespan>
+        <logo_url/>
+        <message_signature_lifespan>60</message_signature_lifespan>
+        <name>Demo</name>
+        <oauth_api_script/>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://app.getpostman.com/oauth2/callback</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <revoke_token_url/>
+        <salt/>
+        <skip_authorize>false</skip_authorize>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-19 08:23:25</sys_created_on>
+        <sys_id>6164bd132ff073008ee3c886f699b680</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Demo</sys_name>
+        <sys_package display_value="script_testing" source="x_323921_script_te">9075954ddb503300c067f53a299619c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="script_testing">9075954ddb503300c067f53a299619c4</sys_scope>
+        <sys_update_name>oauth_entity_6164bd132ff073008ee3c886f699b680</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-06 06:46:01</sys_updated_on>
+        <token_url/>
+        <type>client</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <user/>
+    </oauth_entity>
+</record_update>

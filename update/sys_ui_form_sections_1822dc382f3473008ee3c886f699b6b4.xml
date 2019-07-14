@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="1822dc382f3473008ee3c886f699b6b4" sys_domain="global" table="x_323921_script_te_cmdb_ci_vm_instance_demo" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-11 06:49:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9422d0782f3473008ee3c886f699b6d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_323921_script_te_cmdb_ci_vm_instance_demo" name="x_323921_script_te_cmdb_ci_vm_instance_demo" sys_domain="global" view="44cec414db803300c067f53a29961953">1822dc382f3473008ee3c886f699b6b4</sys_ui_form>
+            <sys_ui_section caption="Key Attributes" display_value="Key Attributes" name="x_323921_script_te_cmdb_ci_vm_instance_demo" sys_domain="global" view="44cec414db803300c067f53a29961953">9022d0782f3473008ee3c886f699b6d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-11 06:49:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-11 06:49:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1822d0782f3473008ee3c886f699b6d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_323921_script_te_cmdb_ci_vm_instance_demo" name="x_323921_script_te_cmdb_ci_vm_instance_demo" sys_domain="global" view="44cec414db803300c067f53a29961953">1822dc382f3473008ee3c886f699b6b4</sys_ui_form>
+            <sys_ui_section caption="More Attributes" display_value="More Attributes" name="x_323921_script_te_cmdb_ci_vm_instance_demo" sys_domain="global" view="44cec414db803300c067f53a29961953">1422dc382f3473008ee3c886f699b6b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-11 06:49:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_323921_script_te_cmdb_ci_vm_instance_demo</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-04-11 06:49:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1822dc382f3473008ee3c886f699b6b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_323921_script_te_cmdb_ci_vm_instance_demo</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="script_testing" source="x_323921_script_te">9075954ddb503300c067f53a299619c4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="script_testing">9075954ddb503300c067f53a299619c4</sys_scope>
+            <sys_update_name>sys_ui_form_sections_1822dc382f3473008ee3c886f699b6b4</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-04-11 06:49:03</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace" name="workspace">44cec414db803300c067f53a29961953</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

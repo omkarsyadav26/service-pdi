@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"activities":{"626f4c6edb287300c067f53a299619dd":"6a6f0c6edb287300c067f53a299619ca","6a6f4c6edb287300c067f53a299619de":"6a6f0c6edb287300c067f53a299619ca"},"ends":["6a6f4c6edb287300c067f53a299619df"],"subflows":[],"stages":{"6a6f0c6edb287300c067f53a299619ca":{"duration":"","order":90,"stageId":"6a6f0c6edb287300c067f53a299619ca","name":"Request Approved","value":"request_approved"}}}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type/>
+        <description/>
+        <expected_sequences>e26f4c6edb287300c067f53a299619e2,626f4c6edb287300c067f53a299619dd,266f4c6edb287300c067f53a299619e0,6a6f4c6edb287300c067f53a299619de,6a6f4c6edb287300c067f53a299619df</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>e26f4c6edb287300c067f53a299619e2,626f4c6edb287300c067f53a299619dd,266f4c6edb287300c067f53a299619e0,6a6f4c6edb287300c067f53a299619de,6a6f4c6edb287300c067f53a299619df</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>IPprovisioning</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration display_value="2 business days by 4pm">3bf802c20a0a0b52008e2859cd8abcf2</relative_duration>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field>stage</stage_field>
+        <stage_order>user_specified</stage_order>
+        <start display_value="Begin">e26f4c6edb287300c067f53a299619e2</start>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:50</sys_created_on>
+        <sys_id>226f0c6edb287300c067f53a299619c9</sys_id>
+        <sys_mod_count>79</sys_mod_count>
+        <sys_updated_by>abraham.lincoln</sys_updated_by>
+        <sys_updated_on>2019-04-04 12:13:45</sys_updated_on>
+        <table>sc_req_item</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="IPprovisioning">cf0ac0e6db287300c067f53a299619cf</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>IPprovisioning</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:27:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cf0ac0e6db287300c067f53a299619cf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>IPprovisioning</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="script_testing" source="x_323921_script_te">9075954ddb503300c067f53a299619c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="script_testing">9075954ddb503300c067f53a299619c4</sys_scope>
+        <sys_update_name>wf_workflow_cf0ac0e6db287300c067f53a299619cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 10:00:29</sys_updated_on>
+        <table>sc_req_item</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Completed</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1100</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:50</sys_created_on>
+        <sys_id>ea6f0c6edb287300c067f53a299619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 06:50:50</sys_updated_on>
+        <value>complete</value>
+        <workflow_version display_value="IPprovisioning">226f0c6edb287300c067f53a299619c9</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Delivery</name>
+        <ola>1970-01-03 00:00:00</ola>
+        <order>140</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:50</sys_created_on>
+        <sys_id>626f0c6edb287300c067f53a299619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 06:50:50</sys_updated_on>
+        <value>delivery</value>
+        <workflow_version display_value="IPprovisioning">226f0c6edb287300c067f53a299619c9</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Fulfillment</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>120</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:50</sys_created_on>
+        <sys_id>ee6f0c6edb287300c067f53a299619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 06:50:50</sys_updated_on>
+        <value>fulfillment</value>
+        <workflow_version display_value="IPprovisioning">226f0c6edb287300c067f53a299619c9</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Cancelled</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1000</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:50</sys_created_on>
+        <sys_id>e66f0c6edb287300c067f53a299619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 06:50:50</sys_updated_on>
+        <value>Request Cancelled</value>
+        <workflow_version display_value="IPprovisioning">226f0c6edb287300c067f53a299619c9</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Approved</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>90</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:50</sys_created_on>
+        <sys_id>6a6f0c6edb287300c067f53a299619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 06:50:50</sys_updated_on>
+        <value>request_approved</value>
+        <workflow_version display_value="IPprovisioning">226f0c6edb287300c067f53a299619c9</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Waiting for Approval</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>100</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:50</sys_created_on>
+        <sys_id>6e6f0c6edb287300c067f53a299619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 06:50:50</sys_updated_on>
+        <value>waiting_for_approval</value>
+        <workflow_version display_value="IPprovisioning">226f0c6edb287300c067f53a299619c9</workflow_version>
+    </wf_stage>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:51</sys_created_on>
+        <sys_id>e26f4c6edb287300c067f53a299619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 06:50:51</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="IPprovisioning">226f0c6edb287300c067f53a299619c9</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=e26f4c6edb287300c067f53a299619e2"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">e26f4c6edb287300c067f53a299619e2</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:51</sys_created_on>
+        <sys_id>aa6f4c6edb287300c067f53a299619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 06:50:51</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:51</sys_created_on>
+        <sys_id>6a6f4c6edb287300c067f53a299619df</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 09:44:37</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="IPprovisioning">226f0c6edb287300c067f53a299619c9</workflow_version>
+        <x>639</x>
+        <y>369</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=6a6f4c6edb287300c067f53a299619df"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>9</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>inform completion</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:51</sys_created_on>
+        <sys_id>266f4c6edb287300c067f53a299619e0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 09:44:03</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="IPprovisioning">226f0c6edb287300c067f53a299619c9</workflow_version>
+        <x>491</x>
+        <y>128</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=266f4c6edb287300c067f53a299619e0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>266f4c6edb287300c067f53a299619e0</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:51</sys_created_on>
+        <sys_id>266f4c6edb287300c067f53a299619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 06:50:51</sys_updated_on>
+        <value>hi from notification.....</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>266f4c6edb287300c067f53a299619e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:51</sys_created_on>
+        <sys_id>2a6f4c6edb287300c067f53a299619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 06:50:51</sys_updated_on>
+        <value>${request.requested_for}</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>266f4c6edb287300c067f53a299619e0</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:51</sys_created_on>
+        <sys_id>626f4c6edb287300c067f53a299619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 06:50:51</sys_updated_on>
+        <value>Your requested item ${number} for ${cat_item.name} is in stock and will be deployed soon!</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>266f4c6edb287300c067f53a299619e0</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:51</sys_created_on>
+        <sys_id>ae6f4c6edb287300c067f53a299619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 06:50:51</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>266f4c6edb287300c067f53a299619e0</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:51</sys_created_on>
+        <sys_id>e66f4c6edb287300c067f53a299619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 06:50:51</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>266f4c6edb287300c067f53a299619e0</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:51</sys_created_on>
+        <sys_id>ea6f4c6edb287300c067f53a299619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 06:50:51</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>266f4c6edb287300c067f53a299619e0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:51</sys_created_on>
+        <sys_id>2a6f4c6edb287300c067f53a299619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 06:50:51</sys_updated_on>
+        <value>${request.requested_for}</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>266f4c6edb287300c067f53a299619e0</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:51</sys_created_on>
+        <sys_id>e66f4c6edb287300c067f53a299619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 06:50:51</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>266f4c6edb287300c067f53a299619e0</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:51</sys_created_on>
+        <sys_id>626f4c6edb287300c067f53a299619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 06:50:51</sys_updated_on>
+        <value>Your requested item ${number} for ${cat_item.name} is in stock and will be deployed soon!</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>266f4c6edb287300c067f53a299619e0</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:51</sys_created_on>
+        <sys_id>266f4c6edb287300c067f53a299619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 06:50:51</sys_updated_on>
+        <value>hi from notification.....</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>266f4c6edb287300c067f53a299619e0</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:51</sys_created_on>
+        <sys_id>ea6f4c6edb287300c067f53a299619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 06:50:51</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>266f4c6edb287300c067f53a299619e0</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:51</sys_created_on>
+        <sys_id>ae6f4c6edb287300c067f53a299619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 06:50:51</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="inform completion">266f4c6edb287300c067f53a299619e0</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:51</sys_created_on>
+        <sys_id>6e6f4c6edb287300c067f53a299619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 06:50:51</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Log Message">396807940a0a0b5c00afd9f67d9fd7a2</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>6</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>log</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Request Approved">6a6f0c6edb287300c067f53a299619ca</stage>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:50</sys_created_on>
+        <sys_id>6a6f4c6edb287300c067f53a299619de</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 09:44:08</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="IPprovisioning">226f0c6edb287300c067f53a299619c9</workflow_version>
+        <x>392</x>
+        <y>273</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=6a6f4c6edb287300c067f53a299619de"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>6a6f4c6edb287300c067f53a299619de</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:50</sys_created_on>
+        <sys_id>6e6f4c6edb287300c067f53a299619de</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 09:05:48</sys_updated_on>
+        <value>${cart_item.sys_scope.name} approved messsssage</value>
+        <variable display_value="">c35dbd1a0a0a0ba96248a7092864142d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>6a6f4c6edb287300c067f53a299619de</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:50</sys_created_on>
+        <sys_id>6e6f4c6edb287300c067f53a299619de</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 09:05:48</sys_updated_on>
+        <value>${cart_item.sys_scope.name} approved messsssage</value>
+        <variable display_value="">c35dbd1a0a0a0ba96248a7092864142d</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="log">6a6f4c6edb287300c067f53a299619de</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:51</sys_created_on>
+        <sys_id>e26f4c6edb287300c067f53a299619df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 06:50:51</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>vm ip script</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Request Approved">6a6f0c6edb287300c067f53a299619ca</stage>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:50</sys_created_on>
+        <sys_id>626f4c6edb287300c067f53a299619dd</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 09:42:15</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="IPprovisioning">226f0c6edb287300c067f53a299619c9</workflow_version>
+        <x>148</x>
+        <y>167</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=626f4c6edb287300c067f53a299619dd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>626f4c6edb287300c067f53a299619dd</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:50</sys_created_on>
+        <sys_id>e66f4c6edb287300c067f53a299619dd</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 09:32:33</sys_updated_on>
+        <value>workflow.info("ZZZZZZZZ");&#13;
+var gr = new GlideRecord('sc_req_item');&#13;
+gr.addQuery('request', current.request);&#13;
+gr.query();&#13;
+//var g = new GlideRecord('sc_req_item');&#13;
+//g.addQuery('request',current);&#13;
+&#13;
+//workflow.info("this is value of g--------&gt;"+g);&#13;
+try{&#13;
+	var requestsa = new sn_ws.RESTMessageV2();&#13;
+	requestsa.setEndpoint('http://13.233.24.212/list');&#13;
+	requestsa.setHttpMethod('GET');&#13;
+	var response = requestsa.execute();&#13;
+	var data = JSON.parse(response.getBody());&#13;
+	a = "your VM IP : \t"+data.ip;&#13;
+	workflow.info(a);&#13;
+}&#13;
+catch(err){&#13;
+	workflow.info("in catch:"+err);&#13;
+	a = 'currently all our servers are down';&#13;
+}&#13;
+while(gr.next()) {&#13;
+	workflow.info("ZZZZZZZZ111");&#13;
+	//gr.comments = "Added by scriptssasdf";&#13;
+	gr.comments = a ;&#13;
+	gr.update();&#13;
+	workflow.scratchpad.ipinfo = a;&#13;
+	workflow.info("ZZZZZZZZ222");&#13;
+	workflow.info("ZZZZZZZ333");&#13;
+}&#13;
+&#13;
+&#13;
+// var request = new XMLHttpRequest();&#13;
+// request.open('GET', 'http://13.233.24.212/list', true);&#13;
+// request.onload = function() {&#13;
+	// 	var data = JSON.parse(this.response);&#13;
+	&#13;
+	// 	if (request.status &gt;= 200 &amp;&amp; request.status &lt; 400) {&#13;
+		// 		a = data.ip;&#13;
+		// 		setValue(a);&#13;
+		// 		console.log(a);&#13;
+		// 	} else {&#13;
+			// 		console.log('error');&#13;
+			// 	}&#13;
+			// };&#13;
+			// request.send();&#13;
+			</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>626f4c6edb287300c067f53a299619dd</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:50</sys_created_on>
+        <sys_id>e66f4c6edb287300c067f53a299619dd</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 09:32:33</sys_updated_on>
+        <value>workflow.info("ZZZZZZZZ");&#13;
+var gr = new GlideRecord('sc_req_item');&#13;
+gr.addQuery('request', current.request);&#13;
+gr.query();&#13;
+//var g = new GlideRecord('sc_req_item');&#13;
+//g.addQuery('request',current);&#13;
+&#13;
+//workflow.info("this is value of g--------&gt;"+g);&#13;
+try{&#13;
+	var requestsa = new sn_ws.RESTMessageV2();&#13;
+	requestsa.setEndpoint('http://13.233.24.212/list');&#13;
+	requestsa.setHttpMethod('GET');&#13;
+	var response = requestsa.execute();&#13;
+	var data = JSON.parse(response.getBody());&#13;
+	a = "your VM IP : \t"+data.ip;&#13;
+	workflow.info(a);&#13;
+}&#13;
+catch(err){&#13;
+	workflow.info("in catch:"+err);&#13;
+	a = 'currently all our servers are down';&#13;
+}&#13;
+while(gr.next()) {&#13;
+	workflow.info("ZZZZZZZZ111");&#13;
+	//gr.comments = "Added by scriptssasdf";&#13;
+	gr.comments = a ;&#13;
+	gr.update();&#13;
+	workflow.scratchpad.ipinfo = a;&#13;
+	workflow.info("ZZZZZZZZ222");&#13;
+	workflow.info("ZZZZZZZ333");&#13;
+}&#13;
+&#13;
+&#13;
+// var request = new XMLHttpRequest();&#13;
+// request.open('GET', 'http://13.233.24.212/list', true);&#13;
+// request.onload = function() {&#13;
+	// 	var data = JSON.parse(this.response);&#13;
+	&#13;
+	// 	if (request.status &gt;= 200 &amp;&amp; request.status &lt; 400) {&#13;
+		// 		a = data.ip;&#13;
+		// 		setValue(a);&#13;
+		// 		console.log(a);&#13;
+		// 	} else {&#13;
+			// 		console.log('error');&#13;
+			// 	}&#13;
+			// };&#13;
+			// request.send();&#13;
+			</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="vm ip script">626f4c6edb287300c067f53a299619dd</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:50</sys_created_on>
+        <sys_id>626f4c6edb287300c067f53a299619de</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 09:43:46</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">6e6f4c6edb287300c067f53a299619e1</condition>
+        <from display_value="inform completion">266f4c6edb287300c067f53a299619e0</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:51</sys_created_on>
+        <sys_id>266f4c6edb287300c067f53a299619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 06:50:51</sys_updated_on>
+        <to display_value="log">6a6f4c6edb287300c067f53a299619de</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">626f4c6edb287300c067f53a299619de</condition>
+        <from display_value="vm ip script">626f4c6edb287300c067f53a299619dd</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:51</sys_created_on>
+        <sys_id>626f4c6edb287300c067f53a299619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 06:50:51</sys_updated_on>
+        <to display_value="inform completion">266f4c6edb287300c067f53a299619e0</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">e26f4c6edb287300c067f53a299619df</condition>
+        <from display_value="log">6a6f4c6edb287300c067f53a299619de</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:51</sys_created_on>
+        <sys_id>aa6f4c6edb287300c067f53a299619e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 06:50:51</sys_updated_on>
+        <to display_value="End">6a6f4c6edb287300c067f53a299619df</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">aa6f4c6edb287300c067f53a299619e2</condition>
+        <from display_value="Begin">e26f4c6edb287300c067f53a299619e2</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:51</sys_created_on>
+        <sys_id>ae6f4c6edb287300c067f53a299619e3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 09:59:53</sys_updated_on>
+        <to display_value="vm ip script">626f4c6edb287300c067f53a299619dd</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-04 06:50:50</sys_created_on>
+        <sys_id>e26f0c6edb287300c067f53a299619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-04 06:50:50</sys_updated_on>
+        <workflow_version display_value="IPprovisioning">226f0c6edb287300c067f53a299619c9</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=cf0ac0e6db287300c067f53a299619cf^sys_id!=226f0c6edb287300c067f53a299619c9">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

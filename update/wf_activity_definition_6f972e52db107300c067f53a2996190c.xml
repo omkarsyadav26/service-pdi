@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_activity_definition">
+    <wf_activity_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <action>false</action>
+        <attributes/>
+        <base_provider/>
+        <category/>
+        <default_height/>
+        <default_width/>
+        <description/>
+        <image/>
+        <js_class_name>ddddddd</js_class_name>
+        <name>ddddddd</name>
+        <script><![CDATA[// Workflow activity definition handler class
+//
+// Implement activity definition handling in the onExecute method
+//
+// Implement any event handlers for the activity definition as a method named 'on[event_name]'
+//     For example, to handle the 'cancel' event, implement an 'onCancel' method
+//
+
+var dddddddActivityHandler = Class.create();
+dddddddActivityHandler.prototype = Object.extendsObject(WFActivityHandler, {
+
+   initialize: function() {
+      WFActivityHandler.prototype.initialize.call(this);
+   },
+
+   onExecute: function() {
+      // implement activity definition code here
+
+   },
+
+   type: 'dddddddActivityHandler'
+});]]></script>
+        <style/>
+        <sys_class_name>wf_activity_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-22 13:03:01</sys_created_on>
+        <sys_id>6f972e52db107300c067f53a2996190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ddddddd</sys_name>
+        <sys_package display_value="script_testing" source="x_323921_script_te">9075954ddb503300c067f53a299619c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="script_testing">9075954ddb503300c067f53a299619c4</sys_scope>
+        <sys_update_name>wf_activity_definition_6f972e52db107300c067f53a2996190c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-22 13:03:01</sys_updated_on>
+        <table>sys_rest_message</table>
+        <version_container_id/>
+    </wf_activity_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=6f972e52db107300c067f53a2996190c"/>
+</record_update>
